@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="selenium.SeleniumTest">
+        <methods>
+          <include name="Scenario3Test"/>
+          <include name="Scenario5Test"/>
+          <include name="Scenario4Test"/>
+        </methods>
+      </class> <!-- selenium.SeleniumTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
